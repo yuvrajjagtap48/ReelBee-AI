@@ -12,10 +12,10 @@ No application authentication, persisted projects, hosted rendering or Instagram
 
 ## Documentation milestone — README refresh
 
-Status: Done. The root README was rewritten as an accurate onboarding guide for the local pipeline and isolated Next.js foundation. It now documents requirements, environment variables, planning/generation, revisions, recovery, fixture workflows, verification commands, current limitations, and the maintainer name. No runtime behavior or configuration changed.
+Status: Done. The root README was rewritten as a polished onboarding guide for the local pipeline and isolated Next.js foundation. It now presents the project purpose, workflow diagram, requirements, environment variables, planning/generation, revisions, recovery, fixture workflows, verification commands, project structure, current limitations, and maintainer name. No runtime behavior or configuration changed.
 
 - File: [README.md](README.md)
-- Verification: documentation reviewed against `package.json`, `.env.example`, `PROTOTYPE_STATUS.md`, and the existing feature status above.
+- Verification: documentation reviewed against `package.json`, `.env.example`, `PROTOTYPE_STATUS.md`, and the existing feature status above; Markdown diff passed `git diff --check`.
 - Remaining limitation: the README describes the current prototype and foundation only; it does not claim planned application features are implemented.
 
 ## How this document is maintained

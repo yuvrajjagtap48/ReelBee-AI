@@ -1,6 +1,6 @@
 # Project Status — NamasteVideo.ai
 
-Last updated: October 1, 2026 (Asia/Kolkata).
+Last updated: October 28, 2026 (Asia/Kolkata).
 
 This is the source of truth for development progress. Specifications describe intent; a feature is complete here only when its implementation and verification are recorded. Design approval is not evidence of working functionality.
 
@@ -9,6 +9,14 @@ This is the source of truth for development progress. Specifications describe in
 **F01 — Application scaffold: Done.** The isolated Next.js workspace and Cinema UI foundation pass the checks recorded below. Next feature: F02, MongoDB connection and schema/index setup (not started).
 
 No application authentication, persisted projects, hosted rendering or Instagram integration exists yet. The local video pipeline predates the application and remains separately usable.
+
+## Documentation milestone — README refresh
+
+Status: Done. The root README was rewritten as a polished onboarding guide for the local pipeline and isolated Next.js foundation. It now presents the project purpose, workflow diagram, requirements, environment variables, planning/generation, revisions, recovery, fixture workflows, verification commands, project structure, current limitations, and maintainer name. No runtime behavior or configuration changed.
+
+- File: [README.md](README.md)
+- Verification: documentation reviewed against `package.json`, `.env.example`, `PROTOTYPE_STATUS.md`, and the existing feature status above; Markdown diff passed `git diff --check`.
+- Remaining limitation: the README describes the current prototype and foundation only; it does not claim planned application features are implemented.
 
 ## How this document is maintained
 
